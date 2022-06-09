@@ -1,2 +1,1 @@
-# samuel.holecko
-# samuelholecko
+# samuelholecko.github.io
