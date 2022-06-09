@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	box-sizing:border-box;
+  scroll-behavior: smooth;
+}
+*:focus {
+    outline: none;
+    box-shadow: none !important;
+}
+body {
+	font-family: "Montserrat", sans-serif;
+}
+
+
+.p-header {
+  justify-content: space-between;
+  display: flex;
+  
+  background-color: #fff;
+  align-items: center;
+  width: 100%;
+  z-index: 1;
+  top: 0;
+
+  flex-direction: column;
+  padding: 10px;
+}
+.p-header .logo {
+	cursor: pointer;
+	width: 50px;
+	height: 50px;
+}
+.p-header ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}
+.p-header ul li {
+
+}
+.p-header ul li a {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  display: flex;
+  font-size: 16px;
+  color: black;
+  text-decoration: none;
+  padding: 20px 40px; 
+  position: relative; 
+  justify-content: center;
+}
+.p-header ul li a:after {
+  content: "";
+  display:none;
+  position: absolute;
+  right: 0px;
+  width: 1px;
+  height: 30px;
+  background-color: black;
+}
+.p-header ul li:last-child a:after {
+  opacity: 0;
+}
+.p-header ul li a:hover {
+  color: lightblue;
+}
+
+/* somarina */
+
+.slider .point-nav{
+  position: absolute;
+  bottom: 20px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.slideshow-container {
+  width: 100%;
+  max-height: 800px;
+  position: relative;
+  margin: auto;
+}
+.slideshow-container .fade img {
+  display: flex;
+}
+.mySlides {
+  display: none;
+}
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.active, .dot:hover {
+  background-color: #717171;
+}
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+/* somarina */
+
+
+.p-search {
+  background-color: #4f99b5;
+  padding: 0 4rem;
+}
+.p-search .box {
+  display: flex;
+  align-items: center;
+}
+.p-search .search{
+  padding: 1rem 0;
+}
+.p-search .search input {
+  padding: 0.7rem;
+  background-color:#6ba9c1 ;
+  font-family: "Montserrat", sans-serif;
+  border: unset;
+  border-radius: 1rem;
+  color: #fff;
+  width: 100%;
+}
+.p-search .search input::placeholder {
+  color: #fff;
+}
+
+
+
+
+
+
+.p-list ul {
+  list-style: none;
+}
+.p-list .sheets img {
+  height:auto;
+    max-width:100%;
+}
+.p-list .sheets {
+  padding: 20px;
+  box-shadow: 0px -3px 9px -2px rgb(0 0 0 / 50%);
+}
+.p-list .item {
+  padding: 2rem;
+}
+.p-list .item .sheets {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 1rem;
+}
+
+
+
+.container {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.p-footer {
+  background-color: #000;
+  font-size: 16px;
+  color: #fff;
+  text-align: center;
+  padding: 1rem;
+  width: 100%;
+  bottom: 0;
+}

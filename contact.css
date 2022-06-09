@@ -1,0 +1,46 @@
+*:focus {
+    outline: #4f99b5;
+}
+.p-formular {
+	padding: 10px;
+	margin: 4rem;
+}
+.p-formular .f-item {
+	padding: 1rem;
+}
+
+.p-formular .f-item input,
+.p-formular .f-item textarea {
+    border-radius: 1rem ;
+    padding: 0.7rem;
+    border: 1px solid #000;
+}
+.p-formular .f-item input,textarea {
+	width: 100%;
+}
+.p-formular .p-button {
+	display: flex;
+	justify-content: center;
+}
+.p-formular .p-button button {
+	background-color: #4f99b5;
+	border: solid #4f99b5;
+	border-radius: 2rem;
+	font-family: "Montserrat", sans-serif;
+	font-size: 20px;
+	color: white;
+	padding: 0.7rem;
+}
+.p-formular .p-button button:hover {
+	background-color: #fff;
+	color: #4f99b5;
+}
+.c-image {
+	height: 100%;
+	background-image: url( "3687337.jpg");
+}
+.c-image img {
+	width: 100%;
+
+}
+
